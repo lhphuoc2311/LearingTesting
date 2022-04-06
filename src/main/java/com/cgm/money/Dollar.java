@@ -13,9 +13,9 @@ public class Dollar {
 
     }
 
-    void times(int multiplier){
+    Dollar times(int multiplier){
 
-        this.amount = this.amount * multiplier;
+        return new Dollar(amount * multiplier);
 
     }
     
