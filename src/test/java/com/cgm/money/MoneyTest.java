@@ -30,6 +30,7 @@ public class MoneyTest {
 
         assertEquals(new Dollar(5), new Dollar(5));
         assertNotEquals(new Dollar(5), new Dollar(8));
+        assertNotEquals(new Franc(5), new Dollar(5));
         
     }
 
