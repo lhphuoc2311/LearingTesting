@@ -5,5 +5,6 @@
 package com.cgm.money;
 
 public interface Expression {
+    Money reduce(String to);
     
 }
